@@ -61,3 +61,33 @@ Install dependencies:
 ```
 pip install -r requirements.txt
 ```
+To check the APIs from postman:
+
+* Register User API:
+
+Method: POST
+URL: http://localhost:5000/register
+Body(raw):
+```
+{
+    "first_name": "Test",
+    "last_name": "Test",
+    "email": "test@example.com",
+    "password": "password123"
+}
+
+```
+
+* Login API:
+
+Method: POST
+URL:  http://localhost:5000/login
+Body(raw):
+```
+{
+    "email": "test@example.com",
+    "password": "password123"
+}
+
+```
+
