@@ -66,7 +66,7 @@ To check the APIs from postman:
 ### Register User API:
 
    Method: POST
-   URL: http://localhost:5000/register
+   URL: http://localhost:5000/api/register
 
    Body(raw):
   ```
@@ -82,7 +82,7 @@ To check the APIs from postman:
 ### Login API:
 
    Method: POST
-   URL:  http://localhost:5000/login
+   URL:  http://localhost:5000/api/login
 
    Body(raw):
    ```
